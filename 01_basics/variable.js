@@ -8,6 +8,9 @@ var grade;
 console.log("name is:",studentName)
 console.table([studentName,studentClass,studentCity,studentId,studentScore,grade])
 
+var check="my value"
+var check
+console.log(check)
 
 
 
@@ -18,3 +21,11 @@ console.table([studentName,studentClass,studentCity,studentId,studentScore,grade
 
 //do not use var due to scope related problem.be a better problem
 
+
+/*there are three point
+1.Scope
+2.Reassignablity
+3.Redeclaration
+4.Hoisting
+
+*/ 

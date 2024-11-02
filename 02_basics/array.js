@@ -38,3 +38,26 @@ console.log(numbers.splice(1,3),numbers);
 
 console.log(numbers)
 
+
+//concatenation
+
+/* 1.push()
+2.concat()
+3.spread operators */
+
+
+let maravel=['iron-man','Thor','Hulk']
+let dc=["batman","superhero",'flash']
+//maravel.push(dc)
+//console.log(maravel.concat(dc))
+
+avengers=[...maravel,...dc]
+console.log(avengers);
+
+let myArray=[1,2,3,[4,5],6,[7,8,[9,10]]]
+console.log(myArray.flat(Infinity))
+
+console.log(Array.isArray([]))
+
+
+console.log(Array.from(12324))

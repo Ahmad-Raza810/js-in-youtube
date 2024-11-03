@@ -1,10 +1,12 @@
 let employee={
 name:"raza",
+id:456,
 id:123,
+name:"ahmad",
 isworking:true,
 }
 
-
+//overwriting concept
 employee.greeting=function () {
     console.log("Asslawalikum ji")
     
@@ -38,3 +40,15 @@ console.log(obj3);
 console.log(Object.keys(employee))
 console.log(Object.values(employee))
 console.log(Object.entries(employee))
+
+
+console.log(employee);
+
+//object destructuring
+
+
+const {name}=employee
+console.log(name);
+
+const {salary="don't know"}=employee
+console.log(salary);
